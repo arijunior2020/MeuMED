@@ -121,4 +121,5 @@ Os principais benefícios após o Aplicativo MeuMED estar disponível para os us
 
 * Blueprint
 
+[Veja a tabela](./files/Blueprint%20MeuMED.CSV)
 
