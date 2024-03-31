@@ -591,7 +591,7 @@ Criação de protótipos de tela para representar a interface do usuário, consi
 Definição do design visual da aplicação, incluindo paleta de cores, tipografia, ícones e elementos gráficos, seguindo boas práticas de usabilidade e acessibilidade.
 Esses resultados fornecem uma base sólida para o desenvolvimento contínuo da aplicação MeuMED, garantindo que as próximas etapas ocorram de forma eficiente e alinhada com as necessidades dos usuários e do projeto.
 
-2.1.2 Lições Aprendidas
+### 2.1.2 Lições Aprendidas
 
 Durante a Sprint 1 do projeto MeuMED, algumas lições importantes foram aprendidas:
 
@@ -843,7 +843,7 @@ Durante a execução dos testes, o ambiente de teste foi monitorado para detecta
 
 Os resultados dos testes foram analisados minuciosamente, identificando-se gargalos de desempenho, áreas de melhoria e ajustes necessários para garantir a escalabilidade da aplicação.
 
-2.2.2 Lições Aprendidas
+### 2.2.2 Lições Aprendidas
 
 Durante o desenvolvimento e planejamento das atividades relacionadas à segurança e privacidade, bem como à performance e escalabilidade do aplicativo MeuMED, algumas lições foram aprendidas:
 
@@ -869,6 +869,119 @@ O planejamento detalhado e a documentação de todas as etapas relacionadas à s
 
 Ao refletir sobre essas lições aprendidas, podemos fortalecer ainda mais nosso compromisso em garantir a segurança, privacidade, desempenho e escalabilidade contínuos do aplicativo MeuMED, fornecendo assim uma experiência de usuário excepcional e atendendo às necessidades e expectativas dos usuários de forma eficaz e responsável. 
 
+ 
+## 2.3 Sprint 3
 
+2.3.1 Solução 
+
+* Evidência do planejamento:
+  
+Essa seção aborda a etapa final do Projeto Arquitetural para desenvolvimento do aplicativo MeuMED, abaixo está listado todo detalhamento técnico do projeto.
+Conforme definido no item “1.2.3 Backlog do Produto”, as atividades planejadas para a Sprint 3 foram:
+
+Documentação e Entrega:
+1. Documentação Técnica
+2. Entrega do Projeto Arquitetural
+
+![Documentação e Entrega](./photos/Documentação%20e%20Entrega.png)
+
+**Documentação Técnica**:
+
+* Elaborar documentos detalhados que descrevem a arquitetura, os componentes e os processos técnicos do aplicativo MeuMED.
+  
+* A documentação técnica servirá como referência para a equipe de desenvolvimento e garantirá uma compreensão clara da estrutura do sistema.
+
+**Entrega do Projeto Arquitetural**:
+
+* Preparar e entregar o projeto arquitetural completo, incluindo diagramas, documentos e descrições detalhadas de todos os aspectos técnicos do aplicativo MeuMED.
+  
+* A entrega do projeto arquitetural é essencial para fornecer uma visão abrangente da arquitetura do sistema e dos requisitos técnicos envolvidos.
+  
+### Evidência da execução de cada requisito:
+
+**Documentação Técnica:**
+
+O próprio documento elaborado representa a documentação técnica completa para a execução do projeto, fornecendo um guia abrangente sobre a arquitetura e os requisitos técnicos do sistema MeuMED. Cada seção foi cuidadosamente elaborada para garantir uma cobertura detalhada de todos os aspectos relevantes para o desenvolvimento e manutenção do aplicativo. Após a elaboração, uma revisão interna foi conduzida para assegurar a precisão e a completude do documento antes da entrega.
+
+**Detalhamento da Arquitetura do Sistema**
+
+A arquitetura do sistema MeuMED foi projetada seguindo um modelo de microsserviços, visando a modularidade, escalabilidade e flexibilidade. 
+
+Os principais componentes incluem:
+
+1. Módulo de Gerenciamento de Usuários: Responsável pelo registro, autenticação e gestão de usuários.
+2. Módulo de Gerenciamento de Medicamentos: Encarregado de manter o registro de medicamentos, incluindo informações de dosagem e lembretes.
+3. Módulo de Integração com APIs Externas: Permite a integração com serviços externos, como farmácias e sistemas de saúde.
+4. Módulo de Análise e Relatórios: Provê análise de dados e geração de relatórios sobre o uso do aplicativo pelos usuários.
+   
+**Diagrama e Fluxo de dados**
+
+Um diagrama detalhado foi elaborado para representar a interação entre os diversos componentes do sistema, abrangendo o fluxo de dados entre eles. Essa representação visual encontra-se na seção "*Componentes da Arquitetura*" do documento, onde são descritos o fluxo de informações do usuário durante o registro, o processo de adição e monitoramento de medicamentos, além da comunicação com APIs externas para obter dados adicionais.
+
+**Requisitos Técnicos**
+
+Os requisitos técnicos detalhados para a implantação e operação do sistema foram minuciosamente identificados e documentados dentro do projeto. Isso abrange especificações de hardware e software necessárias, configurações de segurança, ambientes de desenvolvimento e produção, bem como requisitos de desempenho.
+
+**Procedimentos de Manutenção**
+
+Procedimentos para manutenção contínua do sistema foram delineados, incluindo práticas recomendadas para atualizações de software, backup e restauração de dados, monitoramento de desempenho e resolução de problemas. Isso garantirá que o sistema MeuMED permaneça funcional e seguro ao longo do tempo.
+
+**Entrega do Projeto Arquitetural**:
+
+Todos os artefatos relacionados à arquitetura serão compilados e organizados em um pacote de entrega (Repositório Github) incluindo diagramas de arquitetura, descrições de componentes e requisitos técnicos.
+
+Será realizada uma apresentação em formato de pitch, demonstrando todos os detalhes do projeto de forma clara e objetiva.
+
+### Evidência dos resultados:
+
+**Documentação Técnica**:
+
+* Documentos detalhados foram elaborados, descrevendo a arquitetura de microsserviços adotada, o design do banco de dados, os fluxos de dados e a integração de APIs.
+*A revisão interna da documentação técnica foi concluída, com feedback positivo sobre sua qualidade e clareza.
+
+**Entrega do Projeto Arquitetural**:
+
+O pacote de entrega contendo todos os artefatos relacionados ao projeto foi disponibilizado no repositório do Github do Projeto conforme planejado, segue link: https://github.com/arijunior2020/MeuMED.git.
+
+	Segue print do Trello com todas as Sprints executadas.
+
+![Kanban Finalizado](./photos/Kanban%20Finalizado.png)
+
+### 2.3.2 Lições Aprendidas
+
+Nesta etapa, destacou-se como fundamental a elaboração detalhada da documentação técnica, tendo em vista a apresentação que ainda será realizada. Isso porque a documentação servirá como base sólida para a apresentação, garantindo a compreensão dos stakeholders sobre todos os aspectos do projeto arquitetural.
+
+A responsabilidade por elaborar todos os detalhes do projeto recaiu sobre mim, exigindo cuidado meticuloso em cada aspecto abordado. A revisão interna da documentação técnica ressaltou a importância da comunicação eficaz e da reflexão cuidadosa sobre cada componente do sistema, visando garantir a precisão e a completude do documento.
+
+A apresentação durante a entrega do projeto arquitetural será essencial para esclarecer eventuais dúvidas e garantir uma compreensão abrangente por parte dos stakeholders. Além disso, a organização e formatação adequadas dos artefatos de arquitetura foram enfatizadas como fatores essenciais para facilitar o entendimento tanto para mim quanto para as partes interessadas.
+Essas lições aprendidas serão valiosas para orientar não apenas a apresentação iminente, mas também as futuras etapas do projeto, garantindo uma abordagem eficaz na documentação técnica e na entrega de artefatos de arquitetura. 
+
+## 3. Considerações Finais
+
+**3.1 Resultados**
+
+Durante o desenvolvimento do Projeto Aplicado, diversos resultados foram alcançados, contribuindo para o avanço na solução do desafio proposto. Entre os pontos positivos, destaca-se a elaboração de uma arquitetura robusta e escalável para o aplicativo MeuMED, garantindo sua segurança, privacidade, desempenho e conformidade com regulamentações locais e internacionais. Além disso, a documentação técnica detalhada proporcionou uma base sólida para a apresentação do projeto, facilitando a compreensão dos stakeholders.
+
+Por outro lado, algumas dificuldades foram enfrentadas ao longo do processo, como a necessidade de conciliar diferentes aspectos da arquitetura e lidar com desafios técnicos específicos. No entanto, essas dificuldades foram superadas com dedicação e trabalho árduo, resultando em uma solução sólida e eficaz.
+
+Experiências enriquecedoras foram vivenciadas ao longo do projeto, destacando-se a oportunidade de aplicar conhecimentos teóricos na prática, bem como a colaboração com colegas de equipe em discussões e tomadas de decisão importantes. Essas experiências contribuíram significativamente para o crescimento profissional e pessoal.
+
+**3.2 Contribuições**
+
+O Projeto Aplicado trouxe diversas contribuições para a solução do desafio proposto. Uma das principais inovações foi a criação de um aplicativo que oferece uma solução abrangente para a gestão e organização de medicamentos, integrando recursos como lembretes de doses, registro de medicamentos e integração de receitas médicas em uma única plataforma.
+
+Além disso, o aplicativo MeuMED apresenta vantagens significativas sobre soluções similares, como sua arquitetura altamente escalável e seu foco na segurança e privacidade dos dados dos usuários. As melhorias alcançadas na otimização de desempenho e nos testes de carga garantem uma experiência de usuário satisfatória mesmo sob alta demanda.
+
+**3.3 Próximos passos**
+
+Para contribuir ainda mais com o aprimoramento da solução apresentada pelo Projeto Aplicado, os próximos passos incluem a implementação iminente da solução desenvolvida. Isso envolve a finalização dos detalhes finais do projeto e sua preparação para o lançamento oficial.
+
+Após o lançamento, é essencial acompanhar de perto o feedback dos usuários e realizar atualizações contínuas com base nas necessidades e sugestões levantadas. Isso garantirá que o aplicativo MeuMED esteja sempre alinhado com as expectativas e requisitos dos usuários.
+
+Além disso, estratégias de marketing e divulgação devem ser elaboradas e executadas para promover a adoção do aplicativo e alcançar um amplo público-alvo. Parcerias com profissionais de saúde e instituições médicas também podem ser exploradas para aumentar a credibilidade e a aceitação do aplicativo no mercado.
+
+No contexto de longo prazo, a expansão para novas plataformas e regiões geográficas pode ser considerada, permitindo que o aplicativo atenda a uma base de usuários cada vez maior. O desenvolvimento de recursos adicionais e integrações com outras plataformas de saúde também pode enriquecer a oferta do aplicativo e torná-lo ainda mais valioso para os usuários.
+
+Em resumo, os próximos passos visam garantir o sucesso contínuo do aplicativo MeuMED, tanto em termos de usabilidade e funcionalidade quanto em sua aceitação e adoção pelo mercado. A implementação eficaz dessas iniciativas contribuirá para a consolidação do aplicativo como uma solução líder no segmento de gestão de medicamentos e saúde.
 
 
