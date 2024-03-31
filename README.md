@@ -350,7 +350,7 @@ Ao reunir informações diretamente dos usuários, pudemos compreender melhor se
 
 Como evidência desse levantamento segue alguns casos de uso que utilizei como base:
 
-*História do Usuário 1*: Como um usuário, quero poder cadastrar meus medicamentos no aplicativo, para receber alertas nos horários corretos de administração.
+<span style="background-color: yellow;">História do Usuário 1:</span> Como um usuário, quero poder cadastrar meus medicamentos no aplicativo, para receber alertas nos horários corretos de administração.
 
 *História do Usuário 2*: Como um usuário, quero poder fotografar a receita do medicamento, para que o aplicativo possa cadastrar automaticamente os medicamentos e seus horários.
 
