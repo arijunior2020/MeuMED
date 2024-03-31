@@ -253,7 +253,7 @@ A falta de informações claras pode levar a uma arquitetura mal definida, que n
 
 ![Matriz de Risco / Impacto](./photos/Matriz%20de%20Risco%20e%20Probabilidade%20de%20Impacto.png)
 
-### 1.2.3 Backlog de Produto ###
+### 1.2.3 Backlog de Produto 
 
 **Backlog de Produto - Aplicativo MeuMED**
 
@@ -319,7 +319,7 @@ Preparar e entregar todos os artefatos de arquitetura necessários para o iníci
 ![Kanban Trello](./photos/Kanban%20Trello.png)
 
 
-## 2.	Área de Experimentação ##
+## 2.	Área de Experimentação
 
 **2.1 Sprint 1**
 
@@ -342,7 +342,7 @@ Conforme definido no item “1.2.3 Backlog do Produto”, as atividades planejad
 
 ![Design Interface](./photos/Design%20Interface.png)
 
-### Evidência da execução de cada requisito:###
+### Evidência da execução de cada requisito:
 
 Durante a etapa inicial de definição da arquitetura do aplicativo MeuMED, foi conduzido um processo abrangente de levantamento e análise de requisitos. Para isso, realizamos pesquisas e interações com potenciais usuários, visando compreender suas necessidades, preferências e desafios relacionados à gestão de medicamentos. A pesquisa eu já anexei no item “1.1 - Desafios” neste documento, portanto julgo desnecessário incluir novamente. Essa abordagem nos proporcionou valiosos insights, que foram fundamentais não apenas para identificar os requisitos do projeto, mas também para definir claramente a persona principal do aplicativo.
 
@@ -395,7 +395,7 @@ Fluxo Básico:
 Fluxo Alternativo:
 Se o usuário não visualizar o alerta, o sistema envia uma notificação push.
 
-### Definição de Requisitos Não-Funcionais:###
+### Definição de Requisitos Não-Funcionais:
 
 1.	Desempenho:
 O sistema deve responder aos comandos do usuário em menos de 2 segundos.
@@ -415,7 +415,7 @@ Para definir a arquitetura, adotei o conceito de "first-cloud" e escolhi um dos 
 
 Com base nessa pesquisa, defini as tecnologias e a arquitetura que serão utilizadas no projeto arquitetural. Segue abaixo uma atualização dos componentes da arquitetura, juntamente com o diagrama e o fluxo do aplicativo MeuMED para o uso de microserviços e contêineres na AWS:
 
-### Componentes da Arquitetura na AWS:###
+### Componentes da Arquitetura na AWS:
 
 1.	Frontend:
 
@@ -446,7 +446,6 @@ Um fluxo de mensagens é criado no Amazon SQS (Simple Queue Service) para gerenc
 6.	Função Lambda para Upload de Imagens:
 
 Uma função Lambda é configurada para processar o upload de imagens das receitas para o Amazon S3. Essa função é acionada por eventos do Amazon S3 sempre que uma imagem é enviada para um determinado bucket.
-
 
 7.	Amazon S3 (Simple Storage Service):
 
