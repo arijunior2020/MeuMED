@@ -469,7 +469,7 @@ O Amazon S3 é utilizado para armazenar as imagens das receitas enviadas pelos u
 
 ### Repositório do Projeto Arquitetural – MeuMED
 
-Para o desenvolvimento, controle de versão e criação do pipeline de build, faremos uso do GitHub. A automação do processo de construção do frontend e do backend da aplicação será realizada por meio das GitHub Actions. [Segue link do repositório da aplicação:] (https://github.com/arijunior2020/MeuMED)
+Para o desenvolvimento, controle de versão e criação do pipeline de build, faremos uso do GitHub. A automação do processo de construção do frontend e do backend da aplicação será realizada por meio das GitHub Actions. Segue link do repositório da aplicação: https://github.com/arijunior2020/MeuMED
 
 ### Definição do Padrão Arquitetural
 
@@ -523,8 +523,8 @@ Para esta etapa da criação da interface do usuário utilizamos a ferramenta Fi
   
 Para prototipagem do aplicativo MeuMED utilizei a ferramenta Figma e utilizei o site Flaticon para copiar alguns ícones, seguem os links:
 
-[Figma] – (https://www.figma.com/) 
-[Flaticon] - (https://www.flaticon.com/) 
+Figma – https://www.figma.com/ 
+Flaticon - https://www.flaticon.com/ 
 
 
 
