@@ -37,13 +37,53 @@ Pesquisas foram conduzidas de maneira aberta e colaborativa, permitindo que as e
 
 ![Pesquisa do Projeto Aplicado](./photos/Pesquisa.png)
 
-Matriz CSD
+**Matriz CSD**
 
 ![Matriz CSD](./photos/Matriz%20CSD.png)
 
-POEMS
+**POEMS**
 
 ![POEMS](./photos/POEMS.png)
 
 A compreensão profunda do contexto, proporcionada pela análise sistêmica e ferramentas como a Matriz CSD e POEMS, oferece uma base robusta para a proposição de soluções. Ao abordar as verdadeiras causas do problema e incorporar as percepções dos usuários, o projeto aplicado está posicionado para desenvolver um aplicativo eficaz na administração de medicamentos, indo além do trivial lembrete de doses.
+
+1.1.2 Personas
+
+As principais personas envolvidas no contexto do desenvolvimento do APP MeuMED são:
+•	Usuários (Também considerado paciente, parente ou pessoa próxima que será responsável pelo uso do aplicativo e administração dos medicamentos)
+•	Pacientes
+•	Cuidadores 
+Entretanto, a persona que selecionamos como ponto focal serão os Usuários, uma escolha baseada na abrangência desse público e na alta probabilidade de adesão à solução, conforme indicado pelas pesquisas realizadas.
+
+**Persona: Marcelo Cavalcante**
+
+![Persona](./photos/Persona.png)
+
+* Descrição:
+Marcelo Cavalcante é um estudante universitário de 22 anos, que assumiu a responsabilidade de administrar os medicamentos prescritos para sua avó idosa. Ele está no último ano de Ciências da Computação e mora com sua avó em um apartamento. Como o único membro da família por perto, Marcelo precisa equilibrar seus estudos e a atenção necessária para garantir a saúde de sua avó.
+
+* Características:
+Idade: 22 anos
+Ocupação: Estudante universitário
+Relação com o contexto: Responsável pela administração de medicamentos para sua avó idosa
+Desafio: Conciliar seus estudos com a administração adequada dos medicamentos para sua avó.
+
+* Necessidades e Expectativas:
+
+1.	Um aplicativo intuitivo que o ajude a organizar os horários de administração dos medicamentos de sua avó.
+2.	Notificações personalizadas que se integrem facilmente à sua rotina agitada de estudos.
+3.	Informações detalhadas sobre os medicamentos, incluindo doses e possíveis efeitos colaterais.
+
+* Objetivos Principais:
+
+1.	Garantir que sua avó receba os medicamentos conforme prescrito, mesmo quando ele estiver ausente de casa.
+2.	Facilitar o processo de administração de medicamentos para que ele possa focar em seus estudos com tranquilidade.
+3.	Utilizar uma solução acessível e eficaz que atenda às necessidades de sua avó e simplifique sua responsabilidade como cuidador.
+Esta persona representa um usuário comum, enfrentando desafios familiares e acadêmicos enquanto assume o papel de cuidador. O design do aplicativo pode ser orientado para atender às necessidades específicas de Lucas e outros usuários em situações semelhantes.
+
+**Mapa de Empatia**
+
+![Mapa de Empatia](./photos/Mapa%20de%20Empatia.png)
+
+
 
