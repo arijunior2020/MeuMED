@@ -7,11 +7,12 @@ Figura conceitual, que representa todas as etapas do Projeto Aplicado
 ![CANVAS do Projeto Aplicado](Canvas%20PA.png)
 
  
-1.1	Desafio
+## 1.1	Desafio
 
 1.1.1 Análise de Contexto
 
 Contextualização do Cenário
+
 O desafio deste projeto aplicado está inserido no contexto da administração de medicamentos, onde a correta ingestão dos medicamentos é crucial para prevenir complicações de saúde. Este cenário abrange, predominantemente, a rotina de usuários que dependem regularmente de medicamentos prescritos. No entanto, também se estende a outros usuários que necessitam tomar medicamentos em situações específicas de saúde. Esse contexto considera variáveis como o sistema de saúde local, políticas de medicamentos, práticas médicas e a rotina diária dos usuários.
 Características do Sistema de Saúde
 O sistema de saúde local desempenha um papel crucial no desafio proposto. Questões como acesso a medicamentos, políticas de prescrição e acompanhamento de tratamentos são elementos a serem considerados. O entendimento dessas características é vital para desenvolver uma solução que se alinhe às práticas e regulamentações locais.
