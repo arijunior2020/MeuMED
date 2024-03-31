@@ -176,3 +176,81 @@ Os principais benefícios após o Aplicativo MeuMED estar disponível para os us
 * A precisão na entrada de dados é crucial para garantir informações corretas sobre medicamentos prescritos.
 
 ![Matriz de Observação / Hipóteses](./photos/Matriz%20de%20Observação%20e%20Hipóteses.png)
+
+## 1.2 Solução 
+
+1.2.1 Objetivo SMART
+
+Desenvolver o projeto arquitetural para o futuro desenvolvimento do aplicativo MeuMED, integrando as necessidades e expectativas dos usuários, as características do sistema de saúde local e as melhores práticas de design e tecnologia, visando maximizar a eficácia e usabilidade do aplicativo.
+
+Escopo Pretendido para o Projeto Aplicado (Projeto Arquitetural):
+
+1.	Desenvolvimento do Projeto Arquitetural do Aplicativo MeuMED:
+Realizar a concepção e documentação detalhada da arquitetura do aplicativo MeuMED, estabelecendo as bases técnicas e funcionais para o desenvolvimento futuro.
+
+2.	Análise e Definição de Requisitos:
+Analisar o contexto e os requisitos levantados para o aplicativo MeuMED, incluindo as necessidades dos usuários, as características do sistema de saúde local e as práticas de medicamentos.
+
+3.	Definição de Funcionalidades e Componentes:
+Identificar e documentar as principais funcionalidades e componentes do aplicativo, como lembretes de doses personalizados, captura de receitas por fotos e integração de calendário.
+
+4.	Projetar a Arquitetura de Software:
+Projetar a estrutura de software do aplicativo, incluindo a definição de camadas, componentes, interfaces e fluxos de dados, garantindo modularidade, escalabilidade e reutilização de código.
+
+5.	Definir Integrações e Tecnologias:
+Especificar as integrações necessárias com outros sistemas e tecnologias, como bancos de dados, APIs externas e frameworks de desenvolvimento, considerando as melhores práticas e padrões da indústria.
+
+6.	Validação e Documentação:
+Validar a arquitetura proposta por meio de revisões técnicas e análises de viabilidade, garantindo sua adequação aos requisitos do projeto e sua capacidade de atender às necessidades dos usuários.
+
+Documentar o projeto arquitetural de forma clara e abrangente, incluindo diagramas, descrições de componentes e interfaces, e diretrizes de implementação.
+
+7.	Planejamento para o Desenvolvimento Futuro:
+Estabelecer um plano de ação para o desenvolvimento futuro do aplicativo MeuMED, delineando etapas, recursos necessários e prazos para a implementação da solução.
+
+8.	Entrega do Projeto Arquitetural:
+Entregar o projeto arquitetural completo do aplicativo MeuMED, pronto para ser utilizado como guia durante a fase de desenvolvimento, garantindo uma base sólida e bem definida para a construção da solução final.
+
+**Características objetivo SMART**: 
+
+**S** (*Specific – Específico*): Definir e documentar de maneira detalhada a arquitetura do aplicativo MeuMED, estabelecendo os requisitos técnicos e funcionais para o desenvolvimento futuro da solução.
+
+**M** (*Mensurable - Mensurável*): Produzir uma documentação completa da arquitetura do aplicativo, incluindo diagramas, descrições de componentes e interfaces, e diretrizes de implementação.
+
+**A** (*Attainable – Atingível*): Utilizar recursos disponíveis, como conhecimentos em arquitetura de software e ferramentas de design, para criar uma documentação robusta e adequada às necessidades do projeto.
+
+**R** (*Relevant – Relevante*): Assegurar que o projeto arquitetural atenda às necessidades dos usuários e do contexto local, estabelecendo uma base sólida e bem definida para o desenvolvimento futuro do aplicativo MeuMED, garantindo sua eficácia e usabilidade.
+
+**T** (*Time based – Temporal*): Concluir a documentação da arquitetura do aplicativo MeuMED até o final do curso, permitindo que o desenvolvimento futuro da solução possa ocorrer de maneira eficiente e organizada.
+
+1.2.2 Premissas e Restrições
+
+**Premissas**
+
+* Disponibilidade de Recursos Humanos Qualificados em Arquitetura de Software: É assumido que haverá recurso humano com conhecimento especializado em arquitetura de software para elaborar o projeto arquitetural do aplicativo MeuMED.
+  
+Consequência caso não seja verdadeira
+
+A falta de recursos humanos qualificados pode resultar em uma arquitetura inadequada, que não atende aos requisitos técnicos e funcionais do aplicativo, comprometendo sua eficácia e usabilidade.
+
+* Disponibilidade de Informações e Requisitos Claros: É pressuposto que todas as informações necessárias para a definição da arquitetura do aplicativo MeuMED, incluindo requisitos funcionais e não funcionais, serão disponibilizadas de forma clara e completa.
+  
+Consequência caso não seja verdadeira
+
+A falta de informações claras pode levar a uma arquitetura mal definida, que não atende às necessidades dos usuários e do contexto local, resultando em retrabalho e atrasos no desenvolvimento do aplicativo.
+
+**Restrições**
+
+* Orçamento Limitado para o Projeto Arquitetural: O projeto de elaboração da arquitetura do aplicativo MeuMED está sujeito a um orçamento limitado, que deve ser gerenciado de forma eficiente para garantir que todas as atividades sejam concluídas dentro dos recursos disponíveis.
+  
+* Prazo Fixo para a Conclusão do Projeto Arquitetural: Existe um prazo definido para a conclusão do projeto arquitetural do aplicativo MeuMED, que se estende até o final do curso, e qualquer atraso pode impactar negativamente o desenvolvimento futuro da solução.
+
+* Conformidade com Regulamentações Locais: A arquitetura do aplicativo MeuMED deve estar em conformidade com as regulamentações e políticas locais relacionadas à saúde e tecnologia da informação, o que pode impor restrições adicionais ao escopo e à implementação da solução.
+
+* Utilização de Tecnologias Específicas na Arquitetura: A definição da arquitetura do aplicativo MeuMED deve considerar a utilização de tecnologias específicas previamente definidas, como linguagens de programação e frameworks, para garantir a compatibilidade e eficácia da solução.
+
+**Matriz de Risco de Probabilidade e Impacto**
+
+![Matriz de Risco / Impacto](./photos/Matriz%20de%20Risco%20e%20Probabilidade%20de%20Impacto.png)
+
+
