@@ -316,3 +316,142 @@ Elaborar documentação técnica detalhada da arquitetura e suas integrações.
 1.2.3.5.2 Entrega do Projeto Arquitetural
 Preparar e entregar todos os artefatos de arquitetura necessários para o início do desenvolvimento do aplicativo.
 
+![Kanban Trello](./photos/Kanban%20Trello.png)
+
+
+## 2.	Área de Experimentação ##
+
+**2.1 Sprint 1**
+
+2.1.1 Solução
+
+* Evidência do planejamento:
+
+Conforme definido no item “1.2.3 Backlog do Produto”, as atividades planejadas para a Sprint 1 foram:
+**Definição da Arquitetura da aplicação**:
+* Realizar Levantamento de Requisitos
+* Análise de Requisitos
+* Definição da Arquitetura
+
+![Definição Arquitetura](./photos/Definição%20Arquitetura.png)
+
+**Desenhar o Design da Interface de Usuário**:
+* Prototipação da Interface
+* Design Visual
+* Acessibilidade
+
+![Design Interface](./photos/Design%20Interface.png)
+
+### Evidência da execução de cada requisito:###
+
+Durante a etapa inicial de definição da arquitetura do aplicativo MeuMED, foi conduzido um processo abrangente de levantamento e análise de requisitos. Para isso, realizamos pesquisas e interações com potenciais usuários, visando compreender suas necessidades, preferências e desafios relacionados à gestão de medicamentos. A pesquisa eu já anexei no item “1.1 - Desafios” neste documento, portanto julgo desnecessário incluir novamente. Essa abordagem nos proporcionou valiosos insights, que foram fundamentais não apenas para identificar os requisitos do projeto, mas também para definir claramente a persona principal do aplicativo.
+
+Ao reunir informações diretamente dos usuários, pudemos compreender melhor seus comportamentos, expectativas e demandas específicas. Esses dados foram cruciais para estabelecermos uma persona representativa, que reflete as características e necessidades predominantes do público-alvo do MeuMED.
+
+Como evidência desse levantamento segue alguns casos de uso que utilizei como base:
+
+*História do Usuário 1*: Como um usuário, quero poder cadastrar meus medicamentos no aplicativo, para receber alertas nos horários corretos de administração.
+
+*História do Usuário 2*: Como um usuário, quero poder fotografar a receita do medicamento, para que o aplicativo possa cadastrar automaticamente os medicamentos e seus horários.
+
+*História do Usuário 3*: Como um usuário, quero receber alertas personalizados nos horários de administração dos medicamentos, para não esquecer de tomá-los.
+
+**Escrita de Casos de Uso**:
+
+Caso de Uso 1: Cadastrar Medicamento
+Ator Principal: Usuário
+Descrição: O usuário cadastra um novo medicamento no aplicativo, fornecendo informações como nome, dosagem e horário de administração.
+
+Fluxo Básico:
+1.	O usuário acessa a tela de cadastro de medicamentos.
+2.	O usuário preenche os campos com as informações do medicamento.
+3.	O usuário confirma o cadastro.
+4.	O sistema armazena o medicamento no banco de dados.
+
+Fluxo Alternativo:
+Se o usuário cancelar o cadastro, o sistema retorna à tela anterior.
+
+Caso de Uso 2: Fotografar Receita
+Ator Principal: Usuário
+Descrição: O usuário tira uma foto da receita do medicamento, permitindo que o aplicativo cadastre automaticamente os medicamentos e seus horários.
+
+Fluxo Básico:
+1.	O usuário acessa a função de fotografar receita.
+2.	O usuário tira uma foto da receita.
+3.	O sistema processa a imagem para extrair as informações dos medicamentos.
+4.	O sistema cadastra automaticamente os medicamentos e seus horários.
+
+Fluxo Alternativo:
+Se a imagem não for legível, o sistema solicita que o usuário tire outra foto.
+
+Caso de Uso 3: Receber Alertas de Medicamento
+Ator Principal: Usuário
+Descrição: O usuário recebe alertas nos horários de administração dos medicamentos cadastrados.
+
+Fluxo Básico:
+1.	O sistema verifica os horários de administração dos medicamentos.
+2.	Nos horários configurados, o sistema envia um alerta para o usuário.
+
+Fluxo Alternativo:
+Se o usuário não visualizar o alerta, o sistema envia uma notificação push.
+
+### Definição de Requisitos Não-Funcionais:###
+
+1.	Desempenho:
+O sistema deve responder aos comandos do usuário em menos de 2 segundos.
+Os alertas devem ser enviados instantaneamente nos horários programados.
+
+2.	Segurança:
+As informações dos usuários e dos medicamentos devem ser armazenadas de forma segura. 
+O acesso ao aplicativo deve ser protegido por autenticação e autorização.
+
+3.	Usabilidade:
+A interface do usuário deve ser intuitiva e fácil de usar. 
+O aplicativo deve ser acessível para pessoas com deficiência visual ou motora.
+
+Com os requisitos devidamente documentados e validados, direcionamos nossos esforços para a fase de definição da arquitetura. Nessa etapa, realizamos uma pesquisa detalhada das principais soluções tecnológicas voltadas para a nuvem. Nosso objetivo foi identificar a melhor abordagem arquitetural que atendesse aos requisitos do projeto, garantindo escalabilidade, segurança e eficiência operacional. 
+
+Para definir a arquitetura, adotei o conceito de "first-cloud" e escolhi um dos principais provedores de nuvem, a AWS (Amazon Web Services). Acessei a documentação oficial deles em https://docs.aws.amazon.com/ para analisar minuciosamente todos os recursos que poderiam ser utilizados pela minha aplicação. 
+
+Com base nessa pesquisa, defini as tecnologias e a arquitetura que serão utilizadas no projeto arquitetural. Segue abaixo uma atualização dos componentes da arquitetura, juntamente com o diagrama e o fluxo do aplicativo MeuMED para o uso de microserviços e contêineres na AWS:
+
+### Componentes da Arquitetura na AWS:###
+
+1.	Frontend:
+
+O usuário acessa o aplicativo MeuMED através do Amazon CloudFront, que é protegido pelo AWS WAF (Web Application Firewall).
+O código do frontend está hospedado no Amazon S3, onde é servido estático para os usuários.
+O Amazon API Gateway gerencia as chamadas feitas pelo aplicativo e encaminha solicitações para os serviços adequados.
+Tecnologias sugeridas: React Native para o desenvolvimento multiplataforma de aplicativos móveis.
+
+2.	Backend (Microserviços):
+
+A API RESTful para gerenciamento de usuários, medicamentos e alertas está hospedada em contêineres Docker no Amazon ECS (Elastic Container Service).
+Um Load Balancer do ECS gerencia o tráfego entre os contêineres, garantindo escalabilidade e alta disponibilidade.
+Tecnologias sugeridas: Node.js com Express.js para a construção de APIs RESTful.
+
+3.	Banco de Dados:
+
+Os dados dos usuários, medicamentos e histórico de alertas são armazenados no Amazon DynamoDB, um banco de dados NoSQL totalmente gerenciado pela AWS.
+
+4.	Serviço de Reconhecimento de Imagem:
+
+Para análise de imagens e extração de texto das receitas, é utilizado o Amazon Rekognition.
+
+5.	Sistema de Envio de Alertas:
+
+O Amazon SNS (Simple Notification Service) é utilizado para envio de notificações push em dispositivos móveis.
+Um fluxo de mensagens é criado no Amazon SQS (Simple Queue Service) para gerenciar o processamento assíncrono de notificações.
+
+6.	Função Lambda para Upload de Imagens:
+
+Uma função Lambda é configurada para processar o upload de imagens das receitas para o Amazon S3. Essa função é acionada por eventos do Amazon S3 sempre que uma imagem é enviada para um determinado bucket.
+
+
+7.	Amazon S3 (Simple Storage Service):
+
+O Amazon S3 é utilizado para armazenar as imagens das receitas enviadas pelos usuários. As imagens processadas pela função Lambda são armazenadas no S3 para posterior análise e acesso.
+
+
+
+
