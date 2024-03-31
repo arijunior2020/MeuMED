@@ -523,8 +523,10 @@ Para esta etapa da criação da interface do usuário utilizamos a ferramenta Fi
   
 Para prototipagem do aplicativo MeuMED utilizei a ferramenta Figma e utilizei o site Flaticon para copiar alguns ícones, seguem os links:
 
-Figma – https://www.figma.com/ 
-Flaticon - https://www.flaticon.com/ 
+* Figma – https://www.figma.com/ 
+* Flaticon - https://www.flaticon.com/ 
+
+
 
 
 
