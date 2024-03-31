@@ -88,23 +88,36 @@ Esta persona representa um usuário comum, enfrentando desafios familiares e aca
 1.1.3 Benefícios e Justificativas
 
 Os principais benefícios após o Aplicativo MeuMED estar disponível para os usuários serão:
-•	Melhoria na Adesão ao Tratamento:
-Problema Identificado: A falta de lembretes visuais eficazes resulta em esquecimentos que comprometem a eficácia do tratamento.
-Benefício Esperado: A implementação de um aplicativo eficaz de lembretes pode aumentar significativamente a adesão ao tratamento, garantindo que os usuários tomem os medicamentos conforme prescrito.
-•	Redução de Custos com Complicações de Saúde:
-Problema Identificado: A falta de adesão ao tratamento pode levar a complicações de saúde, resultando em custos adicionais para o sistema de saúde.
-Benefício Esperado: Ao prevenir complicações através de uma administração adequada de medicamentos, o projeto pode contribuir para a redução de custos associados a tratamentos adicionais e hospitalizações.
-•	Simplificação do Processo de Entrada de Dados:
-Problema Identificado: A complexidade dos regimes de medicamentos e a falta de ferramentas eficazes de lembrete.
-Benefício Esperado: Incorporar funcionalidades, como a captura de receitas por meio de fotos, simplificando o processo de entrada de dados para os usuários, tornando-o mais conveniente e eficiente.
-•	Alinhamento com Práticas e Regulamentações Locais:
-Problema Identificado: A importância do entendimento das características do sistema de saúde local.
-Benefício Esperado: Desenvolver uma solução que se alinhe às práticas e regulamentações locais, garantindo a aceitação e eficácia do projeto no contexto específico.
+* Melhoria na Adesão ao Tratamento:
+  
+**Problema Identificado**: A falta de lembretes visuais eficazes resulta em esquecimentos que comprometem a eficácia do tratamento.
+
+**Benefício Esperado**: A implementação de um aplicativo eficaz de lembretes pode aumentar significativamente a adesão ao tratamento, garantindo que os usuários tomem os medicamentos conforme prescrito.
+
+* Redução de Custos com Complicações de Saúde:
+  
+**Problema Identificado**: A falta de adesão ao tratamento pode levar a complicações de saúde, resultando em custos adicionais para o sistema de saúde.
+
+**Benefício Esperado**: Ao prevenir complicações através de uma administração adequada de medicamentos, o projeto pode contribuir para a redução de custos associados a tratamentos adicionais e hospitalizações.
+
+* Simplificação do Processo de Entrada de Dados:
+  
+**Problema Identificado**: A complexidade dos regimes de medicamentos e a falta de ferramentas eficazes de lembrete.
+
+**Benefício Esperado**: Incorporar funcionalidades, como a captura de receitas por meio de fotos, simplificando o processo de entrada de dados para os usuários, tornando-o mais conveniente e eficiente.
+
+* Alinhamento com Práticas e Regulamentações Locais:
+  
+**Problema Identificado**: A importância do entendimento das características do sistema de saúde local.
+
+**Benefício Esperado**: Desenvolver uma solução que se alinhe às práticas e regulamentações locais, garantindo a aceitação e eficácia do projeto no contexto específico.
 
 
-•	Impacto Social:
-Problema Identificado: A falta de lembretes eficazes pode afetar a vida diária dos usuários.
-Benefício Esperado: Melhorar a qualidade de vida dos usuários, permitindo uma gestão eficiente de seus tratamentos, o que pode impactar positivamente o bem-estar geral da comunidade.
+* Impacto Social:
+  
+**Problema Identificado**: A falta de lembretes eficazes pode afetar a vida diária dos usuários.
+
+**Benefício Esperado**: Melhorar a qualidade de vida dos usuários, permitindo uma gestão eficiente de seus tratamentos, o que pode impactar positivamente o bem-estar geral da comunidade.
 
 * Blueprint
 
