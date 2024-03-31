@@ -253,4 +253,58 @@ A falta de informações claras pode levar a uma arquitetura mal definida, que n
 
 ![Matriz de Risco / Impacto](./photos/Matriz%20de%20Risco%20e%20Probabilidade%20de%20Impacto.png)
 
+### 1.2.3 Backlog de Produto ###
+
+**Backlog de Produto - Aplicativo MeuMED**
+
+---
+
+**Épico 1.2.3.1: Definição da Arquitetura**
+
+1.2.3.1.1 Realizar Levantamento de Requisitos
+Identificar e documentar os requisitos funcionais e não funcionais do aplicativo.
+
+1.2.3.1.2 Análise de Requisitos
+Analisar os requisitos levantados para identificar padrões e tendências.
+Priorizar os requisitos com base na importância e impacto para os usuários.
+
+1.2.3.1.3 Definição da Arquitetura
+Elaborar a arquitetura de software do aplicativo, incluindo a estrutura de componentes, padrões de design e tecnologias a serem utilizadas.
+
+**Épico 1.2.3.2: Design da Interface de Usuário**
+
+1.2.3.2.1 Prototipação da Interface
+Criar protótipos de tela para representar a interface de usuário do aplicativo.
+Validar os protótipos com usuários e stakeholders para garantir usabilidade e adequação às necessidades.
+
+1.2.3.2.2 Design Visual
+Desenvolver o design visual da interface, incluindo paleta de cores, tipografia e elementos gráficos.
+
+1.2.3.2.3 Acessibilidade
+Garantir que a interface seja acessível a todos os usuários, incluindo aqueles com deficiências visuais ou motoras.
+
+**Épico 1.2.3.3: Segurança e Privacidade**
+
+1.2.3.3.1 Análise de Vulnerabilidades
+Realizar análise de segurança para identificar possíveis vulnerabilidades no aplicativo.
+Implementar medidas de segurança para proteger os dados dos usuários contra acesso não autorizado.
+
+1.2.3.3.2 Conformidade com Regulamentações
+Garantir que o aplicativo esteja em conformidade com as regulamentações locais e internacionais de privacidade de dados, como o LGPD e GPDR.
+
+**Épico 1.2.3.4: Performance e Escalabilidade**
+
+1.2.3.4.1 Otimização de Desempenho
+Otimizar o código do aplicativo para garantir uma experiência de usuário rápida e responsiva.
+
+1.2.3.4.2 Testes de Carga
+Realizar testes de carga para avaliar a capacidade do aplicativo de lidar com muitos usuários simultâneos.
+
+**Épico 1.2.3.5: Documentação e Entrega**
+
+1.2.3.5.1 Documentação Técnica
+Elaborar documentação técnica detalhada da arquitetura e suas integrações.
+
+1.2.3.5.2 Entrega do Projeto Arquitetural
+Preparar e entregar todos os artefatos de arquitetura necessários para o início do desenvolvimento do aplicativo.
 
