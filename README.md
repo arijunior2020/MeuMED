@@ -175,3 +175,4 @@ Os principais benefícios após o Aplicativo MeuMED estar disponível para os us
 * A entrada manual de dados é suscetível a erros e pode ser demorada, enquanto a captura de fotos agiliza o processo.
 * A precisão na entrada de dados é crucial para garantir informações corretas sobre medicamentos prescritos.
 
+![Matriz de Observação / Hipóteses](./photos/Matriz%20Observação%20e%20Hipóteses.png)
