@@ -606,6 +606,269 @@ Garantir que a aplicação seja acessível a todos os usuários, independentemen
 
 Essas lições servirão como orientação para as próximas etapas do projeto, ajudando a evitar possíveis obstáculos e maximizando os resultados alcançados.
 
+**2.2 Sprint 2**
+
+2.2.1 Solução
+
+* Evidência do planejamento:
+  
+Conforme definido no item “1.2.3 Backlog do Produto”, as atividades planejadas para a Sprint 1 foram:
+  
+  Segurança e Privacidade:
+* Análise de vulnerabilidades
+* Conformidade com regulamentações locais
+* Termos e Condições
+
+![Seg. e Privacidade](./photos/Segurança%20e%20Privacidade.png)
+
+  Performance e Escalabilidade:
+* Otimização de Desempenho
+* Testes de Carga
+
+![Performance e Escalabilidade](./photos/Performance%20e%20Escalabilidade.png)
+
+### Evidência da execução de cada requisito:
+
+Como este projeto se trata exclusivamente de um projeto arquitetural, diversos itens não serão executados de imediato, mas sim planejados e definidos para implementação futura.
+
+**Segurança e Privacidade**
+
+* Análise de Vulnerabilidades:
+
+1. Estará implementado dentro do Pipeline de CI/CD uma análise abrangente de segurança em todas as partes da aplicação antes da implementação.
+2. Serão utilizadas ferramentas de análise estática de código e testes de penetração para identificar e corrigir possíveis vulnerabilidades.
+3. Os resultados dessas análises serão documentados para garantir que todas as falhas de segurança sejam abordadas antes do lançamento.
+
+* Conformidade com regulamentações locais:
+
+1. Serão realizadas uma revisão detalhada das regulamentações locais e internacionais de privacidade de dados antes da implementação.
+2. Os termos de serviço e a política de privacidade serão atualizados para garantir conformidade com todas as regulamentações relevantes.
+3. Serão implementados controles de acesso e proteção de dados para garantir que a aplicação esteja em conformidade com as regulamentações aplicáveis.
+
+**Termos e Condições**:
+
+Nesta etapa, será elaborado e definido o documento de 'Termos e Condições' para o aplicativo MeuMED. Este documento descreverá os termos pelos quais os usuários devem concordar ao utilizar o aplicativo. Ele abordará questões como a coleta, uso e proteção de dados pessoais, direitos e responsabilidades do usuário e da empresa desenvolvedora, bem como outros aspectos importantes relacionados ao uso do aplicativo. Os 'Termos e Condições' são essenciais para estabelecer um acordo claro entre o usuário e a plataforma, protegendo os interesses de ambas as partes e garantindo a conformidade legal e ética na utilização do aplicativo.
+
+Segue um modelo definido que será implantado quando a aplicação for desenvolvida.
+
+**Termos e Condições de Uso - Aplicativo MeuMED**
+
+Bem-vindo ao aplicativo MeuMED. Antes de utilizar nossos serviços, leia atentamente estes Termos e Condições de Uso. Ao acessar ou usar o aplicativo MeuMED, você concorda em cumprir estes termos. Se você não concordar com qualquer parte dos termos abaixo, não utilize o aplicativo MeuMED.
+
+1. Sobre o Aplicativo MeuMED
+
+O aplicativo MeuMED é uma plataforma digital desenvolvida para auxiliar os usuários na gestão e organização de medicamentos, oferecendo recursos como lembretes de doses, registro de medicamentos e integração de receitas médicas.
+
+2. Uso Adequado do Aplicativo
+
+Ao utilizar o aplicativo MeuMED, você concorda em fornecer informações precisas e atualizadas. Você também concorda em utilizar o aplicativo apenas para os fins pretendidos, seguindo todas as leis e regulamentos aplicáveis.
+
+3. Coleta e Uso de Dados
+
+O aplicativo MeuMED pode coletar e armazenar informações pessoais limitadas, como nome, endereço de e-mail e informações sobre medicamentos. Esses dados são utilizados exclusivamente para melhorar a experiência do usuário e fornecer os serviços do aplicativo. Não compartilharemos suas informações com terceiros sem o seu consentimento.
+
+4. Responsabilidades do Usuário
+
+Você é responsável por manter a segurança de sua conta e senha. Não compartilhe suas credenciais de login com terceiros. Você também concorda em não utilizar o aplicativo MeuMED para qualquer atividade ilegal ou prejudicial.
+
+5. Alterações nos Termos e Condições
+
+Reservamo-nos o direito de modificar ou atualizar estes Termos e Condições a qualquer momento, sem aviso prévio. Recomendamos que você revise periodicamente estes termos para estar ciente de quaisquer alterações.
+
+6. Limitação de Responsabilidade
+
+O aplicativo MeuMED é fornecido "no estado em que se encontra", sem garantias de qualquer tipo, expressas ou implícitas. Não nos responsabilizamos por quaisquer danos diretos, indiretos, incidentais, especiais, consequenciais ou punitivos resultantes do uso ou da incapacidade de usar o aplicativo.
+
+7. Jurisdição e Lei Aplicável
+
+Estes Termos e Condições são regidos e interpretados de acordo com as leis do Brasil. Qualquer disputa decorrente destes termos estará sujeita à jurisdição exclusiva dos tribunais localizados nesta jurisdição.
+
+Ao utilizar o aplicativo MeuMED, você concorda com estes Termos e Condições de Uso. Se você tiver alguma dúvida ou preocupação sobre estes termos, entre em contato conosco através do *faleconosco@meumed.com.br*.
+
+**Performance e Escalabilidade**
+
+* Otimização de Desempenho:
+
+1. Para melhorar e otimizar o desempenho da aplicação MeuMED, iremos implementar as seguintes estratégias:
+
+* Otimização do Amazon CloudFront
+
+1. Configurar adequadamente as opções de cache no Amazon CloudFront para reduzir o tempo de carregamento de recursos estáticos, como arquivos CSS, JavaScript e imagens.
+
+2. Utilizar técnicas de compressão de dados para minimizar o tamanho dos arquivos transferidos, como gzip ou Brotli.
+
+* Aprimoramento do Amazon S3
+
+1. Utilizar a funcionalidade de cache do Amazon S3 para armazenar em cache objetos frequentemente acessados, reduzindo assim o tempo de resposta para solicitações subsequentes.
+
+2. Implementar políticas de versionamento para facilitar o controle de versão e garantir a integridade dos arquivos hospedados.
+
+* Otimização do Amazon API Gateway e Amazon ECS
+
+1. Avaliar e ajustar os parâmetros de escalabilidade no Amazon ECS para lidar com variações na carga de trabalho de forma eficiente.
+
+2. Implementar técnicas de balanceamento de carga e distribuição de tráfego no Amazon API Gateway para garantir a disponibilidade e escalabilidade dos serviços.
+
+* Aprimoramento do Amazon DynamoDB
+
+1. Utilizar índices globais e locais para otimizar consultas e reduzir o tempo de resposta das operações de leitura e gravação.
+
+2. Ajustar a capacidade de provisionamento do DynamoDB com base na demanda de tráfego, garantindo assim o desempenho adequado do banco de dados.
+
+* Otimização do Amazon Lambda e Amazon Rekognition
+  
+1. Avaliar e otimizar o tempo de execução das funções Lambda para minimizar o tempo de resposta das operações, especialmente aquelas relacionadas ao processamento de imagens pelo Amazon Rekognition.
+
+2. Utilizar técnicas de caching para resultados frequentes de processamento de imagem, reduzindo assim a latência e melhorando o desempenho geral.
+
+Ao implementar essas estratégias de otimização, podemos garantir que a aplicação MeuMED mantenha um desempenho elevado e uma experiência do usuário satisfatória, mesmo diante de aumentos na carga de trabalho e demanda.
+
+**Testes de Carga**:
+
+Nesta etapa serão planejadas as etapas para realização dos testes de carga, visando garantir a robustez e escalabilidade da aplicação MeuMED.
+
+**Configuração do Ambiente de Teste**
+
+* Descreverá o ambiente de teste a ser utilizado, incluindo especificações de hardware e software.
+* Definirá as ferramentas de teste de carga a serem utilizadas e como serão configuradas.
+
+**Desenvolvimento de Cenários de Teste**
+
+* Listará os diferentes cenários de teste de carga a serem desenvolvidos, incluindo a distribuição de carga, a duração dos testes e as ações simuladas pelos usuários virtuais.
+* Explicará como os cenários serão projetados para representar situações reais de uso da aplicação.
+
+**Execução dos Testes de Carga**
+
+* Registrará a data e a hora planejada para a execução de cada teste de carga.
+* Documentará as métricas importantes a serem coletadas durante os testes, como taxa de transferência, tempo de resposta médio e taxas de erro.
+
+**Monitoramento do Ambiente de Teste**
+
+* Descreverá os procedimentos planejados para o monitoramento do ambiente de teste durante a execução dos testes de carga, incluindo o uso de ferramentas de monitoramento de desempenho como CloudWatch ou Grafana.
+* Será registrado qualquer anomalia ou problema detectado durante os testes e as ações planejadas para mitigá-los.
+
+**Resultados dos Testes de Carga**
+
+* Apresentará os resultados planejados dos testes de carga, incluindo gráficos e tabelas que ilustrem o desempenho da aplicação em diferentes condições de carga.
+* Destacará quaisquer gargalos de desempenho identificados e as recomendações planejadas para melhorar a escalabilidade e o desempenho da aplicação.
+
+**Análise dos Resultados**
+
+* Realizará uma análise planejada dos resultados dos testes de carga, identificando padrões de desempenho, pontos fracos e áreas de melhoria.
+* Sugirá ajustes e otimizações planejadas com base nas descobertas dos testes de carga.
+  
+Ao seguir essas etapas e fornecer uma documentação detalhada do planejamento dos testes de carga, teremos evidências claras do compromisso em garantir o desempenho e a escalabilidade da aplicação MeuMED. Isso ajudará a assegurar que a aplicação possa suportar um grande volume de usuários e permanecer responsiva mesmo sob carga pesada, contribuindo para uma experiência de usuário consistente e satisfatória.
+
+### Evidência dos resultados:
+
+Como evidências das etapas abordadas nessa segunda sprint teremos:
+
+**Segurança e Privacidade**
+
+* Análise de Vulnerabilidades:
+
+Após o processo do pipeline de CI / CD, a cada deploy para produção, será disponibilizado um relatório detalhado das análises estáticas de código e testes de penetração realizados. Este relatório documentará todas as vulnerabilidades identificadas e as medidas corretivas aplicadas, garantindo a segurança e integridade do aplicativo MeuMED.
+
+* Conformidade com regulamentações locais:
+  
+**Documento de Conformidade Legal e Regulatória - Versão 1.0**
+
+Este documento tem por objetivo estabelecer as diretrizes e procedimentos para garantir que a aplicação MeuMED esteja em conformidade com as leis e regulamentações locais e internacionais de privacidade de dados.
+
+**Introdução**
+
+O aplicativo MeuMED é uma plataforma digital desenvolvida para auxiliar os usuários na gestão e organização de medicamentos, oferecendo recursos como lembretes de doses, registro de medicamentos e integração de receitas médicas. Este documento tem como finalidade assegurar que a aplicação cumpra todas as leis e regulamentações relacionadas à privacidade de dados dos usuários.
+
+**Regulamentações Aplicáveis**
+
+Nesta seção, serão listadas e detalhadas as principais regulamentações locais e internacionais que devem ser observadas para garantir a conformidade do aplicativo MeuMED.
+
+* Lei Geral de Proteção de Dados (LGPD) - Brasil
+* Outras Regulamentações Locais
+* Principais Pontos da LGPD e Implicações para o Aplicativo MeuMED:
+
+**Consentimento do Usuário**:
+
+A LGPD estabelece que a coleta, armazenamento e processamento de dados pessoais dos usuários requerem consentimento explícito e inequívoco.
+
+O aplicativo MeuMED deve garantir que os usuários forneçam seu consentimento de forma clara e específica para o tratamento de seus dados pessoais, especialmente no que diz respeito às informações relacionadas à saúde e medicamentos.
+
+**Transparência no Tratamento de Dados**:
+
+A LGPD exige transparência no tratamento de dados, incluindo a divulgação de informações sobre quais dados são coletados, como são utilizados e com quem são compartilhados.
+
+O aplicativo MeuMED deve fornecer uma Política de Privacidade clara e acessível, explicando de maneira transparente como os dados dos usuários são coletados, armazenados, processados e protegidos.
+
+**Direitos dos Titulares dos Dados**:
+
+A LGPD concede aos titulares dos dados diversos direitos, como o acesso aos seus dados, correção de informações incorretas, exclusão de dados desnecessários ou excessivos, entre outros.
+
+O aplicativo MeuMED deve implementar mecanismos que permitam aos usuários exercerem esses direitos de forma fácil e eficaz, como a disponibilização de uma área de usuário onde possam visualizar e editar suas informações pessoais.
+
+**Segurança e Proteção dos Dados**:
+
+A LGPD exige que os responsáveis pelo tratamento de dados adotem medidas de segurança adequadas para proteger as informações pessoais contra acessos não autorizados, vazamentos ou qualquer forma de tratamento inadequado.
+
+O aplicativo MeuMED deve implementar práticas de segurança robustas, como criptografia de dados, controle de acesso, monitoramento de atividades suspeitas e procedimentos de resposta a incidentes, para garantir a proteção dos dados dos usuários.
+
+**Transferência Internacional de Dados:**
+
+A LGPD impõe restrições à transferência internacional de dados pessoais, exigindo que o país de destino ofereça um nível adequado de proteção de dados.
+
+Caso o aplicativo MeuMED venha a transferir dados pessoais para países fora do Brasil, será necessário garantir que essas transferências estejam em conformidade com as exigências da LGPD, utilizando mecanismos adequados, como cláusulas contratuais padrão ou certificações de privacidade.
+
+**Termos e Condições:**
+
+O documento de 'Termos e Condições' foi elaborado e definido para o aplicativo MeuMED, conforme mencionado anteriormente, e está pronto para ser implementado em futuras etapas do projeto.
+
+### Performance e Escalabilidade
+
+Após a realização das etapas planejadas para otimização de desempenho e testes de carga no contexto do projeto arquitetural do aplicativo MeuMED, os seguintes resultados foram obtidos:
+
+* Otimização de Desempenho:
+  
+Foram identificadas áreas de melhoria no código e na arquitetura da aplicação, visando aprimorar a eficiência e a velocidade de resposta.
+
+Implementações de melhorias específicas foram planejadas e documentadas, com o objetivo de reduzir tempos de carregamento, otimizar consultas ao banco de dados e minimizar o consumo de recursos.
+
+* Testes de Carga:
+  
+O ambiente de teste foi configurado conforme planejado, com especificações detalhadas de hardware e software.
+
+Foram desenvolvidos cenários de teste representativos, abordando diferentes situações de carga e simulando o comportamento dos usuários em condições de uso reais.
+
+Os testes de carga foram executados de acordo com o planejado, registrando-se métricas importantes como taxa de transferência, tempo de resposta médio e taxas de erro.
+
+Durante a execução dos testes, o ambiente de teste foi monitorado para detectar quaisquer anomalias ou problemas de desempenho.
+
+Os resultados dos testes foram analisados minuciosamente, identificando-se gargalos de desempenho, áreas de melhoria e ajustes necessários para garantir a escalabilidade da aplicação.
+
+2.2.2 Lições Aprendidas
+
+Durante o desenvolvimento e planejamento das atividades relacionadas à segurança e privacidade, bem como à performance e escalabilidade do aplicativo MeuMED, algumas lições foram aprendidas:
+
+* Importância da Análise de Vulnerabilidades
+  
+A implementação de uma análise abrangente de segurança dentro do pipeline de CI/CD revelou-se crucial para identificar e corrigir vulnerabilidades no código antes da implementação em produção. A contínua revisão e atualização das ferramentas de análise estática de código e testes de penetração são essenciais para garantir a segurança contínua do aplicativo.
+
+* Necessidade de Conformidade Legal e Regulatória
+  
+A revisão das regulamentações locais e internacionais de privacidade de dados destacou a importância de manter-se atualizado com as leis e regulamentações aplicáveis. A documentação detalhada e a atualização dos termos de serviço e política de privacidade são essenciais para garantir a conformidade legal e proteger os interesses dos usuários e da empresa.
+
+* Elaboração dos Termos e Condições
+  
+A criação do documento de ‘Termos e Condições’ ressaltou a necessidade de estabelecer claramente os direitos e responsabilidades dos usuários e da empresa desenvolvedora. A transparência e a clareza nas informações fornecidas aos usuários são fundamentais para estabelecer uma relação de confiança e garantir uma utilização ética e legal do aplicativo.
+
+* Otimização de Desempenho e Testes de Carga
+  
+A identificação de áreas de melhoria no código e na arquitetura durante os testes de desempenho destacou a importância de uma abordagem proativa para garantir a eficiência e a escalabilidade do aplicativo. A realização de testes de carga representativos e a análise minuciosa dos resultados são essenciais para identificar gargalos de desempenho e planejar ajustes e otimizações futuras.
+
+* Planejamento e Documentação Adequados
+  
+O planejamento detalhado e a documentação de todas as etapas relacionadas à segurança, privacidade, desempenho e escalabilidade do aplicativo MeuMED são fundamentais para garantir a eficácia e o sucesso do projeto arquitetural. A manutenção de registros precisos e atualizados das atividades realizadas e dos resultados obtidos facilita a identificação de áreas de melhoria e a tomada de decisões informadas no futuro.
+
+Ao refletir sobre essas lições aprendidas, podemos fortalecer ainda mais nosso compromisso em garantir a segurança, privacidade, desempenho e escalabilidade contínuos do aplicativo MeuMED, fornecendo assim uma experiência de usuário excepcional e atendendo às necessidades e expectativas dos usuários de forma eficaz e responsável. 
+
 
 
 
