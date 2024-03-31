@@ -526,6 +526,85 @@ Para prototipagem do aplicativo MeuMED utilizei a ferramenta Figma e utilizei o 
 Figma – https://www.figma.com/ <br>
 Flaticon - https://www.flaticon.com/ 
 
+![Protótipo MeuMED](./photos/Protótipo%20MeuMED.png)
+
+**Design Visual**
+
+Nesta etapa definimos o design visual da interface.
+
+Paleta de cores: Selecionamos uma paleta de cores que transmita a identidade visual da aplicação e proporcione uma experiência agradável aos usuários. Optamos por cores que sejam atraentes e harmoniosas, levando em consideração a psicologia das cores e a legibilidade em diferentes contextos.
+
+Principal: #FF1744 (Vermelho)
+Secundária: #FFFFFF (Branco)
+Destaque: #FFB8C2 (Rosa claro)
+Fundo: #F5F5F5 (Cinza claro)
+Texto: #333333 (Cinza escuro)
+
+Tipografia: Escolhemos cuidadosamente as fontes tipográficas para garantir uma leitura confortável e fácil compreensão do conteúdo. Priorizamos fontes legíveis e adequadas ao estilo e propósito da aplicação.
+
+Fonte principal: Roboto (Sans-serif)
+Fonte secundária: Open Sans (Sans-serif)
+
+Ícones: Utilizamos uma combinação de ícones fornecidos pela biblioteca FontAwesome, incluindo ícones como:
+* Ícone de usuário para perfis de usuário
+* Ícone de medicamento para gerenciamento de medicamentos
+* Ícone de sino para notificações/alertas
+* Ícone de imagem para serviços de reconhecimento de imagem
+
+Utilizei como apoio o site: https://fontawesome.com/icons/user?f=classic&s=solid
+
+* Exemplo com o ícone do perfil do usuário
+
+![Exemplo Ícone Perfil](./photos/Exmplo%20Ícone%20Perfil.png)
+
+**Elementos gráficos**
+
+Incorporamos sombras sutis para destacar elementos e criar profundidade na interface.
+Utilizamos gradientes suaves em botões e elementos de destaque para adicionar dinamismo.
+Bordas arredondadas foram aplicadas em botões e contêineres para suavizar a aparência e criar uma sensação mais amigável.
+Ícones foram utilizados em menus e botões para fornecer indicações visuais de funcionalidade e navegação.
+
+**Acessibilidade**
+
+Nesta fase certificamos de que a interface seja acessível a todos os usuários, incluindo aqueles com deficiências visuais ou motoras. Utilizamos as boas práticas de mercado no quesito de acessibilidade, como:
+* Contraste de cores adequado
+* Tamanho de fonte ajustável
+* Descrições alternativas para imagens.
+
+### Evidência dos resultados:
+
+Durante a Sprint 1 do projeto MeuMED, foram realizadas atividades fundamentais para estabelecer as bases do desenvolvimento e direcionar o projeto para o sucesso. Os principais resultados alcançados foram:
+
+1.	Estrutura do Desenvolvimento:
+
+Estabelecimento do ambiente de desenvolvimento, incluindo a criação do repositório no GitHub e a configuração das ferramentas de controle de versão.
+Definição das tecnologias e ferramentas a serem utilizadas no desenvolvimento da aplicação, como React Native, Node.js, e serviços da AWS.
+
+2.	Definição da Arquitetura:
+
+Levantamento e análise de requisitos para a construção do projeto arquitetural, considerando aspectos como funcionalidades essenciais, segurança, desempenho e escalabilidade.
+Pesquisa e seleção das tecnologias mais adequadas para cada componente da arquitetura, com base em soluções voltadas para a nuvem, como AWS.
+
+3.	Prototipação e Design Visual da Aplicação:
+
+Criação de protótipos de tela para representar a interface do usuário, considerando as necessidades identificadas durante o levantamento de requisitos.
+Definição do design visual da aplicação, incluindo paleta de cores, tipografia, ícones e elementos gráficos, seguindo boas práticas de usabilidade e acessibilidade.
+Esses resultados fornecem uma base sólida para o desenvolvimento contínuo da aplicação MeuMED, garantindo que as próximas etapas ocorram de forma eficiente e alinhada com as necessidades dos usuários e do projeto.
+
+2.1.2 Lições Aprendidas
+
+Durante a Sprint 1 do projeto MeuMED, algumas lições importantes foram aprendidas:
+
+* Importância da Pesquisa e Análise de Requisitos:
+Aprofundar o entendimento das necessidades dos usuários é fundamental para definir uma arquitetura eficiente e uma interface de usuário intuitiva.
+
+* Utilização Efetiva de Ferramentas de Desenvolvimento:
+A configuração adequada e expertise no uso das ferramentas de desenvolvimento e de prototipação, como o GitHub e o Figma, contribui significativamente para a organização e produtividade do projeto.
+
+* Priorização da Acessibilidade e Usabilidade:
+Garantir que a aplicação seja acessível a todos os usuários, independentemente de suas habilidades ou limitações, é essencial para proporcionar uma experiência positiva e inclusiva.
+
+Essas lições servirão como orientação para as próximas etapas do projeto, ajudando a evitar possíveis obstáculos e maximizando os resultados alcançados.
 
 
 
