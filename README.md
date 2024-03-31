@@ -453,6 +453,78 @@ O Amazon S3 é utilizado para armazenar as imagens das receitas enviadas pelos u
 
 ![Diagrama de Arquitetura](./photos/Diagrama%20de%20Arquitetura.png)
 
+### Fluxo do Aplicativo MeuMED
+
+1.	O usuário acessa o aplicativo MeuMED através do Amazon CloudFront, que é protegido pelo AWS WAF.
+2.	O código do frontend está hospedado no Amazon S3 e é servido para o usuário.
+3.	O usuário interage com o aplicativo, fazendo chamadas através do Amazon API Gateway.
+4.	O Amazon API Gateway encaminha as solicitações para os serviços apropriados no backend hospedado no Amazon ECS.
+5.	O Amazon ECS gerencia os contêineres que executam os microserviços da API.
+6.	O backend se comunica com o Amazon DynamoDB para acessar e armazenar dados.
+7.	Imagens de receitas enviadas pelos usuários são processadas pela função Lambda e armazenadas no Amazon S3.
+8.	O Amazon Rekognition analisa as imagens e extrai os metadados relevantes.
+9.	O Amazon ECS envia mensagens para uma fila SQS para notificações.
+10.	O Amazon SNS envia notificações push para dispositivos móveis dos usuários com base nas mensagens da fila SQS.
+
+
+### Repositório do Projeto Arquitetural – MeuMED
+
+Para o desenvolvimento, controle de versão e criação do pipeline de build, faremos uso do GitHub. A automação do processo de construção do frontend e do backend da aplicação será realizada por meio das GitHub Actions. [Segue link do repositório da aplicação:] (https://github.com/arijunior2020/MeuMED)
+
+### Definição do Padrão Arquitetural
+
+* Arquitetura Orientada a Serviços (SOA): Utilização de microsserviços para diferentes funcionalidades, permitindo o desenvolvimento, implantação e escalabilidade independentes de cada serviço.
+
+* Estilo Arquitetural RESTful: Implementação de uma API RESTful para comunicação eficiente entre o frontend e o backend da aplicação.
+
+* Padrão MVC (Model-View-Controller): No frontend, o uso do React implica na adoção do padrão MVC para separação clara entre a lógica de negócios (Controller), a apresentação (View) e a manipulação de dados (Model).
+
+* Princípios do SOLID e Injeção de Dependência: Desenvolvimento dos microsserviços seguindo os princípios do SOLID para promover coesão, baixo acoplamento e alta modularidade, além da utilização de injeção de dependência para gerenciar as dependências entre os componentes da aplicação.
+
+Para a arquitetura de autenticação e autorização do aplicativo MeuMED, utilizarei uma abordagem baseada em tokens JWT (JSON Web Tokens), que é comumente utilizada em aplicações web e móveis. A arquitetura funcionará da seguinte forma:
+
+* Autenticação
+
+Quando um usuário faz login no aplicativo, suas credenciais (como e-mail e senha) são enviadas para o backend.
+
+O backend irá validar essas credenciais em relação aos dados armazenados no banco de dados.
+
+Se as credenciais forem válidas, o backend gera um token JWT contendo informações sobre o usuário (como ID e role).
+Esse token é então retornado ao cliente (frontend) como parte da resposta à solicitação de login.
+
+* Autorização
+
+Cada solicitação subsequente feita pelo cliente incluirá esse token JWT nos cabeçalhos HTTP.
+
+O backend verifica a validade e a integridade do token JWT recebido.
+
+Se o token for válido, o backend permite que o cliente acesse os recursos solicitados com base nas permissões associadas ao usuário contidas no token.
+
+Se o token for inválido ou expirado, o backend responde com um erro de autenticação.
+
+* Arquitetura
+
+No frontend, será implementado um mecanismo para armazenar e enviar o token JWT com todas as solicitações HTTP, geralmente usando localStorage ou sessionStorage para armazenamento seguro no navegador.
+
+No backend, utilizarei uma camada de middleware para verificar a autenticidade e autorização do token JWT em todas as solicitações protegidas.
+
+Utilizei a biblioteca jsonwebtoken para Node.js para facilitar a validação e a geração de tokens JWT.
+
+* Segurança
+
+Todas as comunicações entre o frontend e o backend serão feitas por meio de HTTPS para garantir a segurança dos dados durante a transmissão.
+Implementarei práticas recomendadas de segurança, como políticas de senhas fortes e hash de senhas no armazenamento.
+
+* Design da Interface do Usuário
+  
+Para esta etapa da criação da interface do usuário utilizamos a ferramenta Figma como ferramenta de prototipação, visto que o foco no momento é o projeto arquitetural para desenvolvimento em breve.
+
+* Prototipagem da Interface
+  
+Para prototipagem do aplicativo MeuMED utilizei a ferramenta Figma e utilizei o site Flaticon para copiar alguns ícones, seguem os links:
+
+[Figma] – (https://www.figma.com/) 
+[Flaticon] - (https://www.flaticon.com/) 
 
 
 
