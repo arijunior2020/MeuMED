@@ -123,3 +123,55 @@ Os principais benefícios após o Aplicativo MeuMED estar disponível para os us
 
 ![Blueprint](./photos/Blueprint.png)
 
+**Canvas de Proposta de Valor**
+
+![Canvas Proposta de Valor](./photos/Canvas%20da%20proposta%20de%20Valor.png)
+
+
+1.1.4	Hipóteses
+
+1.1.4.1	Hipótese Relacionada ao Problema:
+
+* Os usuários enfrentam dificuldades na administração regular de medicamentos devido a esquecimentos frequentes e falta de ferramentas eficazes de lembrete.
+  
+1.1.4.2	Por que essa dificuldade existe?
+
+* Os regimes de medicamentos são complexos, levando à confusão e esquecimentos.
+* A falta de lembretes visuais eficazes contribui para a inconsistência na administração.
+  
+1.1.4.3	Hipótese Direcionada à Persona:
+
+* A persona principal (usuário que depende regularmente de medicamentos prescritos) busca uma solução que vá além do simples lembrete e integre funcionalidades para simplificar o gerenciamento de medicamentos.
+  
+1.1.4.4	Por que essa persona busca algo mais do que lembretes básicos?
+
+* A experiência atual de gerenciamento de medicamentos não atende completamente às suas necessidades e expectativas.
+* A administração de medicamentos envolve mais do que simplesmente receber lembretes de horários.
+  
+1.1.4.5	Hipótese Relacionada à Interação:
+
+* A interação intuitiva e amigável com o aplicativo MeuMED é crucial para garantir a adesão dos usuários.
+  
+1.1.4.6	Por que a interação é fundamental?
+
+* Usuários estão acostumados com interfaces intuitivas em outros aplicativos, esperando o mesmo nível de facilidade no MeuMED.
+* A experiência do usuário impacta diretamente a probabilidade de utilização contínua do aplicativo.
+  
+1.1.4.7	Hipótese sobre a Necessidade de Feedback:
+
+* Os usuários desejam um canal eficaz para fornecer feedback sobre a usabilidade e sugerir melhorias no MeuMED.
+
+1.1.4.8	Por que o feedback é fundamental para o sucesso do aplicativo?
+
+* A participação ativa dos usuários no aprimoramento contínuo do aplicativo fortalece o engajamento e a fidelidade.
+* A compreensão das necessidades e expectativas dos usuários é essencial para a evolução da solução.
+  
+1.1.4.9	Hipótese Relacionada à Validade da Receita:
+
+* O uso da funcionalidade de captura de receitas por fotos no MeuMED é uma alternativa viável e precisa para o cadastro manual de medicamentos, visando assim automatizar o processo de cadastro dos alarmes.
+  
+1.1.4.10	Por que a captura de receitas por fotos é uma solução eficaz?
+
+* A entrada manual de dados é suscetível a erros e pode ser demorada, enquanto a captura de fotos agiliza o processo.
+* A precisão na entrada de dados é crucial para garantir informações corretas sobre medicamentos prescritos.
+
