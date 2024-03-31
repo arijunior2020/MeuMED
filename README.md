@@ -350,7 +350,7 @@ Ao reunir informações diretamente dos usuários, pudemos compreender melhor se
 
 Como evidência desse levantamento segue alguns casos de uso que utilizei como base:
 
-<span style="background-color: yellow;">História do Usuário 1:</span> Como um usuário, quero poder cadastrar meus medicamentos no aplicativo, para receber alertas nos horários corretos de administração.
+*História do Usuário 1*: Como um usuário, quero poder cadastrar meus medicamentos no aplicativo, para receber alertas nos horários corretos de administração.
 
 *História do Usuário 2*: Como um usuário, quero poder fotografar a receita do medicamento, para que o aplicativo possa cadastrar automaticamente os medicamentos e seus horários.
 
@@ -450,6 +450,8 @@ Uma função Lambda é configurada para processar o upload de imagens das receit
 7.	Amazon S3 (Simple Storage Service):
 
 O Amazon S3 é utilizado para armazenar as imagens das receitas enviadas pelos usuários. As imagens processadas pela função Lambda são armazenadas no S3 para posterior análise e acesso.
+
+![Diagrama de Arquitetura](./photos/Diagrama%20de%20Arquitetura.png)
 
 
 
