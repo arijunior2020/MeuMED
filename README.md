@@ -271,6 +271,8 @@ Priorizar os requisitos com base na importância e impacto para os usuários.
 1.2.3.1.3 Definição da Arquitetura
 Elaborar a arquitetura de software do aplicativo, incluindo a estrutura de componentes, padrões de design e tecnologias a serem utilizadas.
 
+---
+
 **Épico 1.2.3.2: Design da Interface de Usuário**
 
 1.2.3.2.1 Prototipação da Interface
@@ -283,6 +285,8 @@ Desenvolver o design visual da interface, incluindo paleta de cores, tipografia 
 1.2.3.2.3 Acessibilidade
 Garantir que a interface seja acessível a todos os usuários, incluindo aqueles com deficiências visuais ou motoras.
 
+---
+
 **Épico 1.2.3.3: Segurança e Privacidade**
 
 1.2.3.3.1 Análise de Vulnerabilidades
@@ -292,6 +296,8 @@ Implementar medidas de segurança para proteger os dados dos usuários contra ac
 1.2.3.3.2 Conformidade com Regulamentações
 Garantir que o aplicativo esteja em conformidade com as regulamentações locais e internacionais de privacidade de dados, como o LGPD e GPDR.
 
+---
+
 **Épico 1.2.3.4: Performance e Escalabilidade**
 
 1.2.3.4.1 Otimização de Desempenho
@@ -299,6 +305,8 @@ Otimizar o código do aplicativo para garantir uma experiência de usuário ráp
 
 1.2.3.4.2 Testes de Carga
 Realizar testes de carga para avaliar a capacidade do aplicativo de lidar com muitos usuários simultâneos.
+
+---
 
 **Épico 1.2.3.5: Documentação e Entrega**
 
