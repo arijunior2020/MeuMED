@@ -984,4 +984,12 @@ No contexto de longo prazo, a expansão para novas plataformas e regiões geogr�
 
 Em resumo, os próximos passos visam garantir o sucesso contínuo do aplicativo MeuMED, tanto em termos de usabilidade e funcionalidade quanto em sua aceitação e adoção pelo mercado. A implementação eficaz dessas iniciativas contribuirá para a consolidação do aplicativo como uma solução líder no segmento de gestão de medicamentos e saúde.
 
+## Apresentação  - Pitch
+
+**Apresentação PowerPoint**
+
+[Download PowerPoint](./files/Pitch%20Pós%20-%20Projeto%20Arquitetural%20MeuMED.pptx)
+
+
+![Pitch - Projeto Aplicado - MeuMED](./videos/JOSE%20ARIMATEIA%20RODRIGUES%20JUNIOR.mp4)
 
