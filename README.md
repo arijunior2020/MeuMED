@@ -991,5 +991,5 @@ Em resumo, os próximos passos visam garantir o sucesso contínuo do aplicativo 
 [Download PowerPoint](./files/Pitch%20Pós%20-%20Projeto%20Arquitetural%20MeuMED.pptx)
 
 
-![Pitch - Projeto Aplicado - MeuMED](./videos/JOSE%20ARIMATEIA%20RODRIGUES%20JUNIOR.mp4)
+![Pitch - Projeto Aplicado - MeuMED](https://1drv.ms/v/s!AvpCAxlBU3VLhpE5MA3ZG32aCc-rXA?e=4rfcuz)
 
