@@ -986,8 +986,6 @@ Em resumo, os próximos passos visam garantir o sucesso contínuo do aplicativo 
 
 ## Apresentação  - Pitch
 
-**Apresentação PowerPoint**
-
 [Download PowerPoint](https://docs.google.com/presentation/d/10HSefDtvsx8bKH3Lc5Y6x7WpY7gKEyir/edit?usp=sharing&ouid=116428362208712225615&rtpof=true&sd=true)
 
 
