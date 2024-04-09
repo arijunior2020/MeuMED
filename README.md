@@ -988,7 +988,7 @@ Em resumo, os próximos passos visam garantir o sucesso contínuo do aplicativo 
 
 **Apresentação PowerPoint**
 
-[Download PowerPoint]([./files/Pitch%20Pós%20-%20Projeto%20Arquitetural%20MeuMED.pptx](https://docs.google.com/presentation/d/10HSefDtvsx8bKH3Lc5Y6x7WpY7gKEyir/edit?usp=sharing&ouid=116428362208712225615&rtpof=true&sd=true))
+[Download PowerPoint](https://docs.google.com/presentation/d/10HSefDtvsx8bKH3Lc5Y6x7WpY7gKEyir/edit?usp=sharing&ouid=116428362208712225615&rtpof=true&sd=true)
 
 
 [Apresentação Pitch](https://drive.google.com/file/d/10EK_lwDh1Cme-V9RJN7gbB7jwFL_WDjv/view?usp=sharing)
