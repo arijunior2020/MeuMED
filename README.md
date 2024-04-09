@@ -991,5 +991,5 @@ Em resumo, os próximos passos visam garantir o sucesso contínuo do aplicativo 
 [Download PowerPoint](./files/Pitch%20Pós%20-%20Projeto%20Arquitetural%20MeuMED.pptx)
 
 
-![Pitch - Projeto Aplicado - MeuMED](https://1drv.ms/v/s!AvpCAxlBU3VLhpE5MA3ZG32aCc-rXA?e=4rfcuz)
+![Apresentação Pitch - Projeto Aplicado MeuMED](https://drive.google.com/file/d/10EK_lwDh1Cme-V9RJN7gbB7jwFL_WDjv/view?usp=sharing)
 
